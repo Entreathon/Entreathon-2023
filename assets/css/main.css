@@ -2831,3 +2831,30 @@ li.stylish-list {
 .prize-desc {
   display: none;
 }
+
+
+.sponsor_heading{
+  color: rgb(97, 1, 1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2rem auto;
+  font-size: 2.6rem;
+}
+.platinum_sponsors_div{
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.platinum_sponsor_boxes{
+  /* border: 1px solid green; */
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gold_sponsor_box{
+  width: 33%;
+}
+.gold_sponsor_box>a>img{
+  width: 60%;
+}

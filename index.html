@@ -95,9 +95,15 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nobis nesciunt atque perferendis, ipsa doloremque deserunt cum qui.</p> -->
                 
                   <h1 class="banner-heading">Entreathon 2023</h1>
-                  <div class="banner-btn">
+                  <!-- <div class="banner-btn">
                     <a href="#" id="hero-register" class="btn btn-common">Register Now!</a>
-                  </div>
+                  </div> -->
+                  <div 
+                    class="apply-button btn btn-common" 
+                    data-hackathon-slug="entreathon" 
+                    data-button-theme="light"
+                    style="height: 44px; width: 312px"
+                  >Apply With Devfolio</div>
                 <p class="banner-info">Hackathon begins on 29th April, 2023.<br>Last date for registration is 28th April, 2023.</p>
               </div>
             </div>
@@ -163,7 +169,7 @@
                   <li ><i style="color:turquoise;" class="lni-check-mark-circle"></i>Location: Hybrid (Eligible participants will get an email)</li>
                   <li ><i style="color:turquoise;" class="lni-check-mark-circle"></i>Cash prizes will be announced soon!</li>
                 </ul>
-                <a class="btn btn-common" href="#">Register Now!</a>
+                <!-- <a class="btn btn-common" href="#">Register Now!</a> -->
               </div>
             </div>
           </div>
@@ -697,12 +703,50 @@
           </div>
         </div>
         <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
-          <div class="col-lg-12">
-            <div class="sponsors-logo text-center">
-               <!-- <a href="https://www.wolfram.com/"><img style="height: 100px;" src="assets/img/sponsors/wolfram.png" alt=""></a> -->
-               <h2>Sponsors will be announced shortly!</h2>
-            </div><!-- sponsors logo end-->
-         </div>
+          <div class="platinum_sponsors_div">
+            <h2 class="sponsor_heading">Platinum Sponsors</h2>
+            <div class="platinum_sponsor_boxes">
+              <div class="platinum_sponsor_box">
+                <!-- Devfolio -->
+                <a href="https://devfolio.co/">
+                  <img src="./assets/img/sponsors/Devfolio_Logo-Black.png" alt="">
+                </a>
+              </div>
+              <!-- Polygon -->
+              <div class="platinum_sponsor_box">
+                <a href="https://polygon.technology/">
+                  <img src="./assets/img/sponsors/Polygon_Logo-Dark.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gold Sponsor -->
+          <div class="platinum_sponsors_div">
+            <h2 class="sponsor_heading">Gold Sponsors</h2>
+            <div class="platinum_sponsor_boxes">
+              <div class="gold_sponsor_box">
+                <!-- Solana -->
+                <a href="https://solana.com/">
+                  <img src="./assets/img/sponsors/Solana-Colored.png" alt="">
+                </a>
+              </div>
+              <!-- Filecoin -->
+              <div class="gold_sponsor_box">
+                <a href="https://filecoin.io/">
+                  <img src="./assets/img/sponsors/Filecoin Black.svg" alt="">
+                </a>
+              </div>
+              <!-- replit -->
+              <div class="gold_sponsor_box">
+                <a href="https://replit.com/">
+                  <img src="./assets/img/sponsors/logo-dark-text-bg.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <h1 style="margin-top: 6rem; font-family:monospace;">More Sponsors will be announced soon!</h1>
         </div>
       </div>
     </section>
@@ -922,6 +966,9 @@
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/video.js"></script>
-    <script src="assets/js/main.js"></script>      
+    <script src="assets/js/main.js"></script>     
+    
+    <!-- Devfolio Integration -->
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
   </body>
 </html>
